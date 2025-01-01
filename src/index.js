@@ -14,7 +14,7 @@ import { app, server } from "./lib/socket.js";
 dotenv.config();
 
 // Constants
-const PORT = process.env.PORT || 5000; // Default to 5000 if PORT is not set
+const PORT = process.env.PORT || 4000; // Default to 5000 if PORT is not set
 const __dirname = path.resolve(); // Needed for static file serving
 
 // Middleware
